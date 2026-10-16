@@ -2,7 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
+Route::redirect('/', '/profil');
+// Route::get('/', function () {
     return view('welcome');
 });
 
