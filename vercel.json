@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "outputDirectory": "public",
   "functions": {
-    "api/index.php": {
-      "runtime": "vercel-php@0.6.0"
+    "api/*.php": {
+      "memory": 1024,
+      "maxDuration": 10
     }
   },
   "routes": [
