@@ -6,7 +6,7 @@ Route::redirect('/', '/profil');
 // Route::redirect('/', '/profil');
 // Route::redirect('/', '/profil');
 // Route::get('/', function () {
-    return view('welcome');
+    return redirect('/profil');
 });
 
 Route::get('/profil', function () {
