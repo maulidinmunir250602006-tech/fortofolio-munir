@@ -98,7 +98,7 @@
                 <div class="absolute -inset-1 bg-gradient-to-r from-red-600 to-amber-500 rounded-3xl blur-xl opacity-30 group-hover:opacity-60 transition duration-500"></div>
                 <div class="relative glass p-8 rounded-3xl w-full max-w-sm text-center border border-slate-800">
                     <div class="relative w-36 h-36 mx-auto mb-6">
-                        <img src="{{ asset('images/profil.jpg') }}" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80';" alt="{{ $nama }}" class="w-full h-full object-cover rounded-2xl border-2 border-red-500/50 shadow-2xl">
+                        <img src="{{ asset('images/foto-formal.jpg') }}" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80';" alt="{{ $nama }}" class="w-full h-full object-cover rounded-2xl border-2 border-red-500/50 shadow-2xl">
                         <div class="absolute -bottom-2 -right-2 bg-slate-900 border border-slate-700 p-2 rounded-xl text-xs text-emerald-400 font-bold flex items-center gap-1.5 shadow-lg">
                             <i class="fa-solid fa-circle text-[8px] text-emerald-400"></i> Online
                         </div>
