@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://maulidin-munir.vercel.app/sitemap.xml
